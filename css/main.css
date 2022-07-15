@@ -33,6 +33,7 @@ body{
     font-weight: bold;
     padding: 0 40px;
     line-height: 80px;
+    cursor: default;
 }
 .navUl{
     display: flex;
