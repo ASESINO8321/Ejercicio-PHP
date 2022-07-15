@@ -10,9 +10,19 @@
 <body>
     <header class="header">
         <?php
-            include "modueles/navegacion.php";
+            include "modules/navegation.php";
         ?>
     </header>
+    <main class="main">
+        <section class="section">
+            <?php
+                #creamos un nuevo objeto
+                $mvc = new MvcController();
+                #indicamos la funcion de los enlaces desde el archivo controlador
+                $mvc -> enlacesPaginasController();
+            ?>
+        </section>
+    </main>
     <script src="logic/main.js"></script>
 </body>
 </html>
