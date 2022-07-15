@@ -8,4 +8,5 @@
     $mvc = new MvcController();
     #le indicamos al objeto cual funcion queremos llamar
     #-----------------------------
+    $mvc -> plantilla();
 ?>
