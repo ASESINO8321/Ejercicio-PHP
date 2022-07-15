@@ -8,8 +8,11 @@
     <title>Prueba 1</title>
 </head>
 <body>
-   
-
+    <header class="header">
+        <?php
+            include "modueles/navegacion.php";
+        ?>
+    </header>
     <script src="logic/main.js"></script>
 </body>
 </html>
