@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/main.css">
+    <link rel="stylesheet" href="styles/main.css">
     <title>Prueba 1</title>
 </head>
 <body>
    
 
-    <script src="logica/main.js"></script>
+    <script src="logic/main.js"></script>
 </body>
 </html>
